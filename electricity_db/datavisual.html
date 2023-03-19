@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="landing.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <div class="full_body">
+  <h1 class="H1">Data Visualization</h1>
+  <h3 class="H3">Type the parameter for comparison</h3>
+    <div class="dropdown">
+        <button class="dropbtn">Select</button>
+        <div class="dropdown-content">
+          <a href="chart1.html">Electricity</a>
+          <a href="chart2.html">cost</a>
+        </div>
+      </div>
+  </div>
+
+  <style>
+    *{
+    position: relative;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all .5s cubic-bezier(.37,1.14,.26,1.24);
+
+}
+.H1{
+  margin: 30px;
+  margin-left: 60px;
+  margin-bottom: 0px;
+
+}
+
+
+.full_body{
+    justify-content: center;
+    align-items: center;
+    margin-top:17% ;
+    margin-left: 35%;
+}
+.H3{
+  align-items: center;
+  margin: 30px;
+  margin-top: 20px;
+}
+.dropbtn {
+    background-color: #0d9979;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+  }
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: #0d9979;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: flex;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #0d9979;
+    color: #f1f1f1;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: black;
+  }
+  </style>
+</body>
+</html>
