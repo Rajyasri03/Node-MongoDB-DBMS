@@ -10,10 +10,6 @@ CB.EN.U4CSE21346 Rajyasri R A
 
 CB.EN.U4CSE21362 Surya Ganapathy N
 
-CB.EN.U4CSE21359 Sri Kailaash Kumar
-
-CB.EN.U4CSE21319 Harshni Sri K S
-
 ## Getting Started
 
 This project is a starting point for a Website that renders information from the database and reflects it.
